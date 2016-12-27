@@ -1,0 +1,3 @@
+[submodule "caffe_official"]
+	path = caffe
+	url = https://github.com/qingswu/caffe.git

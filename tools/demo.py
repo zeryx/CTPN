@@ -1,19 +1,20 @@
+#!/usr/bin/env python
 #
-# The codes are used for implementing CTPN for scene text detection, described in: 
+# The codes are used for implementing CTPN for scene text detection, described in:
 #
 # Z. Tian, W. Huang, T. He, P. He and Y. Qiao: Detecting Text in Natural Image with
 # Connectionist Text Proposal Network, ECCV, 2016.
 #
 # Online demo is available at: textdet.com
-# 
-# These demo codes (with our trained model) are for text-line detection (without 
-# side-refiement part).  
+#
+# These demo codes (with our trained model) are for text-line detection (without
+# side-refiement part).
 #
 #
 # ====== Copyright by Zhi Tian, Weilin Huang, Tong He, Pan He and Yu Qiao==========
 
 #            Email: zhi.tian@siat.ac.cn; wl.huang@siat.ac.cn
-# 
+#
 #   Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences
 #
 #
