@@ -1,3 +1,7 @@
+# CUDA 8.0 compatible version
+1 . Updated caffe to current version, keeping the files that the official version doesn't have.
+2 . Small fix in CTPN code to adapt to the new caffe.
+
 # Detecting Text in Natural Image with Connectionist Text Proposal Network
 The codes are used for implementing CTPN for scene text detection, described in: 
 
