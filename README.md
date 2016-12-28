@@ -2,6 +2,16 @@
 1 . Updated caffe to current version, keeping the files that the official version doesn't have.
 
 2 . Small fix in CTPN code to adapt to the new caffe.
+```{bash}
+git clone --recursive https://github.com/qingswu/CTPN.git
+...compile caffe following official steps
+# and goto root folder, compile cython code
+make
+# download model
+wget http://textdet.com/downloads/ctpn_trained_model.caffemodel -P models/
+# run the demo
+./tools/demo.py
+```
 
 # Detecting Text in Natural Image with Connectionist Text Proposal Network
 The codes are used for implementing CTPN for scene text detection, described in: 
