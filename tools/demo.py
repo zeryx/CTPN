@@ -19,7 +19,6 @@
 #
 #
 
-from cfg import Config as cfg
 from other import draw_boxes, resize_im, CaffeModel
 import cv2, os, caffe, sys
 from detectors import TextProposalDetector, TextDetector
